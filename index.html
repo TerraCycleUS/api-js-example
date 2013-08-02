@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TerraCycle API Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/libs/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/libs/bootstrap-responsive.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <span class="brand">TerraCycle API Example</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="form-actions">
+      <div class="pull-left">
+        <button id="fetch-brigades" class="btn btn-inverse">Brigades</button>
+        <button id="fetch-profile" class="btn btn-inverse">Account</button>
+      </div>
+      <div class="pull-right">
+        <button id="login" class="btn btn-success">Login</button>
+        <button id="logout" class="btn btn-danger">Logout</button>
+        <button id="edit-profile" class="btn">Edit Profile</button>
+      </div>
+    </div>
+
+    <ul id="result"></ul>
+  </div>
+
+  <script type="text/javascript" src="js/libs/jquery-1.10.1.min.js"></script>
+  <script type="text/javascript" src="js/libs/jquery.cookie.js"></script>
+  <script type="text/javascript" src="js/utils.js"></script>
+  <script type="text/javascript" src="js/config.js"></script>
+  <script type="text/javascript" src="js/auth.js"></script>
+  <script type="text/javascript" src="js/api.js"></script>
+</body>
+</html>
